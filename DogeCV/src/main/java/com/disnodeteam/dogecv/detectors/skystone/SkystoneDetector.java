@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SkystoneDetector extends DogeCVDetector {
-    public DogeCV.AreaScoringMethod areaScoringMethod = DogeCV.AreaScoringMethod.MAX_AREA; // Setting to decide to use MaxAreaScorer or PerfectAreaScorer
+    public DogeCV.AreaScoringMethod areaScoringMethod = DogeCV.AreaScoringMethod.PERFECT_AREA; // Setting to decide to use MaxAreaScorer or PerfectAreaScorer
 
     //Create the default filters and scorers
     public DogeCVColorFilter blackFilter = new GrayscaleFilter(0, 25);
